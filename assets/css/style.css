@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+.header {
+    background-image: url(https://daily.kellogg.edu/wp-content/uploads/2016/03/italian-flag.jpg);
+    background-position: center;
+    position: relative;
+    text-align: center;
+    padding-top: 1px;
+    color: black;
+    margin: auto;
+}
+
+.navbar {
+    font-size: large;
+}
+
+
+/* ----------------------------------------Footer */
+
+footer {
+    position: absolute;
+    border: 1px solid;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    min-height: 50px;
+}
+
+.facebook {
+    background-color: Green;
+    position: absolute;
+    left: 70px;
+    bottom: 0;
+}
+
+.instagram {
+    background-color: white;
+    position: absolute;
+    left: 50%;
+    top: 30px;
+    bottom: 0;
+}
+
+.twitter {
+    background-color: red;
+    position: absolute;
+    right: 70px;
+    bottom: 0;
+}
+
