@@ -1,50 +1,107 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
-.header {
-    background-image: url(https://daily.kellogg.edu/wp-content/uploads/2016/03/italian-flag.jpg);
-    background-position: center;
-    position: relative;
-    text-align: center;
-    padding-top: 1px;
-    color: black;
-    margin: auto;
+html, header, body, footer{
+    height:100%;
+    width:100%;
+    padding:0;
+    margin:0;
 }
 
-.navbar {
-    font-size: large;
+/* ----------------------------------------test header */
+
+.green {
+    width: 33%;
+    background-color: green;
+    color: black;
+    text-align: center;
+
+}
+
+.white {
+    width:3 3%;
+    background-color: white;
+    color: white;
+}
+
+.red {
+    width: 33%;
+    background-color: red;
+    color: black;
+    text-align: center;
+}
+
+header {
+    top: 0;
+    left: 0;
+}
+
+.heading-text {
+    text-align: center;
+}
+
+.table-header {
+    top: 0;
+    left: 0;
+    border-collapse: collapse;
+}
+
+.chef-image {
+    height: 125px;
+    width: 100px;
+    border-radius: 50%;
+    border: 1px solid rgb(181, 181, 181, 0.5);
+}
+/* ----------------------------------------Navbar */
+
+.nav-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table-home{
+    width: 25%;
+    text-align: center;
+}
+
+.table-menu {
+    width: 25%;
+    text-align: center;
+}
+
+.table-bookings {
+    width: 25%;
+    text-align: center;
+}
+
+.table-story {
+    width: 25%;
+    text-align: center;
 }
 
 
 /* ----------------------------------------Footer */
 
-footer {
-    position: absolute;
-    border: 1px solid;
-    left: 0;
-    bottom: 0;
+#social-media-table {
     width: 100%;
-    min-height: 50px;
+    height: 40px;
+    border-collapse: collapse;
+    bottom: 0;
 }
 
 .facebook {
-    background-color: Green;
-    position: absolute;
-    left: 70px;
-    bottom: 0;
+    width: 33%;
+    background-color: green;
+    text-align: center;
 }
 
 .instagram {
+    width: 33%;
     background-color: white;
-    position: absolute;
-    left: 50%;
-    top: 30px;
-    bottom: 0;
+    text-align: center;
 }
 
 .twitter {
+    width: 33%;
     background-color: red;
-    position: absolute;
-    right: 70px;
-    bottom: 0;
+    text-align: center;
 }
-
