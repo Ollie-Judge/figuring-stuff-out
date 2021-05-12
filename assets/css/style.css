@@ -1,21 +1,20 @@
-
-
-html, header, body, footer{
-    height:100%;
-    width:100%;
-    padding:0;
-    margin:0;
+html, header, body, footer {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
     font-family:
 }
 
-/* ----------------------------------------general body */
+/* ----------------------------------------Gneral body */
+
 body {
     background-color: rgb(255,253,208);
 }
 
 .heading-text, h1 p {
     font-family: 'Merienda One', 'Brush Script MT', cursive;
-} 
+}
 
 /* ----------------------------------------Header */
 
@@ -51,7 +50,6 @@ header {
     background-color: green;
     color: black;
     text-align: center;
-
 }
 
 .white {
@@ -75,7 +73,7 @@ header {
     background-color: rgb(204, 204, 153);
 }
 
-.table-home{
+.table-home {
     width: 33%;
     text-align: center;
 }
@@ -107,7 +105,7 @@ button:hover {
     background-color: rgb(252, 252, 151);
 }
 
-.fa-home, .fa-clipboard, .fa-address-book, .fa-book{
+.fa-home, .fa-clipboard, .fa-address-book, .fa-book {
     display: none;
 }
 
@@ -117,7 +115,7 @@ button:hover {
     width: 100%;
 }
 
-.td-os-h {
+.td-wwd-h {
     text-align: center;
     width: 33%;
 }
@@ -139,6 +137,14 @@ button:hover {
 .td-ot {
     text-align: center;
 }
+
+
+/* ----------------------------------------Menu body */
+
+form {
+    text-align: center;
+}
+
 /* ----------------------------------------Footer */
 
 #social-media-table {
@@ -182,6 +188,6 @@ button:hover {
     color: rgb(44, 43, 43);
 }
 
-.fa:visited { 
-    text-decoration: none; 
+.fa:visited {
+    text-decoration: none;
 }
