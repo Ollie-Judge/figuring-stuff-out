@@ -148,11 +148,13 @@ button:hover {
 
 .word-bookings {
     text-align: center;
+    font-family: cursive;
 }
 
 form {
     text-align: center;
     width: 100%;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 label {
@@ -196,10 +198,12 @@ label {
 
 .h-menu {
     text-align: center;
+    font-family: cursive;
 }
 
 .menu-table {
     width: 100%;
+    font-family: cursive;
 }
 
 .menu-text {
