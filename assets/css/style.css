@@ -152,49 +152,62 @@ button:hover {
 
 form {
     text-align: center;
+    width: 100%;
 }
 
+label {
+    text-align: left;
+}
+
+#fname {
+    width: 50%;
+    padding: 9px 10px;
+}
+
+#lname {
+    width: 50%;
+    padding: 9px 10px;
+}
+
+#email {
+    width: 50%;
+    padding: 9px 10px;
+}
+
+#noguests {
+    width: 50%;
+    padding: 3px 4px;
+}
+
+#toa-hours {
+    width: 25%;
+    padding: 3px 4px;
+}
+
+#toa-mins {
+    width: 25%;
+    padding: 3px 4px;
+}
+
+#spec-req {
+    width: 75%;
+}
 /* ----------------------------------------Menu page */
 
-.word-menu {
+.h-menu {
     text-align: center;
 }
-.tab{
-  position:relative;
+
+.menu-table {
+    width: 100%;
 }
 
-.tab li{
-  float:left;
-  overflow:hidden;
-  list-style-type: none;
-  display: block;
-  margin-right:1px;
-  left:70px;
-  cursor: pointer;
-  position: relative;
-  color: WHITE;
-  background: #6543F1;  
-
+.menu-text {
+    text-align: center;
 }
 
-.tab li a{
-  display:block;
-  text-decoration: none;
-  color:white;
-  padding:10px;
-}
-
-.tab section{
-  z-index:0;
-  width:70%;
-  padding:5px;
-  position: absolute;
-  top:39px;
-  left:110px;
-  color: black;
-  background: white;
-  border-radius:0px 5px 5px 5px;
-  box-shadow: 0px 2px 2px 0px grey;
+.spacer {
+    width: 33%;
 }
 
 /* ----------------------------------------Footer */
