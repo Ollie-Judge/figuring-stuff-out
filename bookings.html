@@ -23,7 +23,6 @@
                      <img src="assets/images/chef.png" class="chef-image">
                     <h1>Il Ristorante Della Famigila</h1>
                     <p>Proudly serving since 1905</p>
-                    <a href="bookings.html"><button><i class="fa fa-address-book" aria-hidden="true"></i> <strong>Bookings</strong></button></a>
                  </td>
 
                  <td class="red">
@@ -32,33 +31,109 @@
          </table>
 
          <table class="nav-table">
-             <tr>
-                 <td class="table-home green">
-                     <a href="index.html" ><button><i class="fa fa-home" aria-hidden="true"></i> <strong>Home</strong></button></a>
-                 </td>
+        <tr>
 
-                 <td class="table-menu white">
-                     <a href="menu.html"><button><i class="fa fa-clipboard" aria-hidden="true"></i> <strong>Menu</strong></button></a>
-                 </td>
+                <a href="index.html"><button class="home"><i class="fa fa-home" aria-hidden="true"></i> <strong>Home</strong></button></a>
+            
+                <a href="menu.html"><button class="menu"><i class="fa fa-clipboard" aria-hidden="true"></i> <strong>Menu</strong></button></a>
 
-                 <td class="table-story red">
-                     <a href="our-story.html"><button><i class="fa fa-book" aria-hidden="true"></i> <strong>Our Story</strong></button></a>
-                 </td>
-             </tr>
-
-         </table>
+                <a href="bookings.html"><button class="bookings"><i class="fa fa-address-book" aria-hidden="true"></i> <strong>Book A Table</strong></button></a>
+            
+                <a href="our-story.html"><button class="story"><i class="fa fa-book" aria-hidden="true"></i> <strong>Our Story</strong></button></a>
+            
+        </tr>
+    </table>
 
      <br>
 
-     <section>
-         <table>
-             <tr>
-                 <td>
+     <h2 class="word-bookings">Book A Table</h2>
 
-                 </td>
-             </tr>
-         </table>
-     </section>
+     <form>
+                <fieldset>
+
+                    <legend>Fill out the form and click "Book Now!" to confirm your booking with us</legend>
+
+                    <label for="title">Title:</label>
+                    <Select>
+                        <option value="master">Master</option>
+                        <option value="mr">Mr</option>
+                        <option value="miss">Miss</option>
+                        <option value="mrs">Mrs</option>
+                        <option value="dr">Dr</option>
+                    </Select>
+                    <label for="fname">First Name:</label>
+                    <input type="text" id="fname" name="fname" placeholder="First Name" required>
+
+                    <label for="lname">Last Name:</label>
+                    <input type="text" id="lname" name="lname" placeholder="Last Name" required>
+                    
+                    <br>
+
+                    <label for="email">Email Adress:</label>
+                    <input type="email" id="email" name="email" placeholder="Email Address" required>
+                    
+                    <br>
+
+                    <label for="noguests">Number of Guests:</label>
+
+                    <br>
+
+                    <select type="" id="noguests" name="noguests" required>
+                        <option value="one">1</option>
+                        <option value="two">2</option>
+                        <option value="three">3</option>
+                        <option value="four">4</option>
+                        <option value="five">5</option>
+                        <option value="six">6</option>
+                        <option value="seven">7</option>
+                        <option value="eight">8</option>
+                        <option value="nine">9</option>
+                        <option value="more-than-ten">10+ (disclose how many guests in the special requests box below)</option>
+                    </select>
+
+                    <br>
+
+                    <label>Time of Arrival</label>
+
+                    <br>
+
+                    <label>Hours:</label>
+                    <select>
+                        <option value="nine">09</option>
+                        <option value="ten">10</option>
+                        <option value="eleven">11</option>
+                        <option value="twelve">12</option>
+                        <option value="thirteen">13</option>
+                        <option value="fourteen">14</option>
+                        <option value="fifteen">15</option>
+                        <option value="sixteen">16</option>
+                        <option value="seventeen">17</option>
+                        <option value="eighteen">18</option>
+                        <option value="nineteen">19</option>
+                        <option value="twenty">20</option>
+                        <option value="twenty-one">21</option>
+                        <option value="twenty-two">22</option>
+                        <option value="twenty-three">23</option>
+                    </select>
+
+                    <label>Minutes:</label>
+
+                    <select>
+                        <option value="zero">00</option>
+                        <option value="fifteen">15</option>
+                        <option value="thirty">30</option>
+                        <option value="fourty-five">45</option>
+                    </select>
+
+                    <br>
+
+                    <textarea>Enter any special requests, dietry requirements or if your booking exceeds 9 guests, enter in the ammount here....</textarea>
+
+                    <br>
+
+                    <input type="submit" value="Book Now!">
+                </fieldset>
+            </form>
      
      <br>
     
